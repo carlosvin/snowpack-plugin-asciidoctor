@@ -22,6 +22,6 @@ describe('snowpack-plugin-asciidoctor', () => {
     )
     const result = await plugin.load({ contents, filePath })
     expect(result).not.toBeNull()
-    expect(result).toMatchSnapshot('include')
+    expect(result.html).toMatchSnapshot('include')
   })
 })
