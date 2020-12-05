@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snowpack-plugin-asciidoctor should include files: include 1`] = `
+exports[`snowpack-plugin-asciidoctor should compile .adoc files: html 1`] = `
 "<div class=\\"paragraph\\">
 <p>It’s fair to say that React 16.8 and the introduction of
 <a href=\\"https://reactjs.org/docs/hooks-intro.html\\">hooks</a> has really changed how
@@ -15,8 +15,8 @@ refactoring a component to use hooks</a> that offers a nice comparison.</p>
 </div>
 <div class=\\"listingblock\\">
 <div class=\\"content\\">
-<pre class=\\"highlight highlight-prismjs prismjs language-py\\"><code class=\\"language-py\\" data-lang=\\"py\\"><span class=\\"token keyword\\">def</span> <span class=\\"token function\\">main</span><span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span><span class=\\"token punctuation\\">:</span>
-    <span class=\\"token keyword\\">pass</span></code></pre>
+<pre class=\\"highlight\\"><code class=\\"language-py\\" data-lang=\\"py\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">def</span> <span class=\\"hljs-title\\">main</span><span class=\\"hljs-params\\">()</span>:</span>
+    <span class=\\"hljs-keyword\\">pass</span></code></pre>
 </div>
 </div>
 <div class=\\"admonitionblock warning\\">
@@ -35,21 +35,75 @@ Enter at your own risk.
 <div class=\\"listingblock\\">
 <div class=\\"title\\">void main</div>
 <div class=\\"content\\">
-<pre class=\\"highlight highlight-prismjs prismjs language-cpp\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\"><span class=\\"token keyword\\">int</span> <span class=\\"token function\\">main</span> <span class=\\"token punctuation\\">(</span><span class=\\"token punctuation\\">)</span> <span class=\\"token punctuation\\">{</span>
-    <span class=\\"token keyword\\">return</span> <span class=\\"token number\\">0</span><span class=\\"token punctuation\\">;</span>
-<span class=\\"token punctuation\\">}</span></code></pre>
+<pre class=\\"highlight\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">int</span> <span class=\\"hljs-title\\">main</span> <span class=\\"hljs-params\\">()</span> </span>{
+    <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-number\\">0</span>;
+}</code></pre>
 </div>
 </div>
 <div class=\\"listingblock\\">
 <div class=\\"title\\">bash file include</div>
 <div class=\\"content\\">
-<pre class=\\"highlight highlight-prismjs prismjs language-bash\\"><code class=\\"language-bash\\" data-lang=\\"bash\\"><span class=\\"token assign-left variable\\">FILES</span><span class=\\"token operator\\">=</span>*.md
-<span class=\\"token keyword\\">for</span> <span class=\\"token for-or-select variable\\">f</span> <span class=\\"token keyword\\">in</span> <span class=\\"token variable\\">$FILES</span>
-<span class=\\"token keyword\\">do</span>
-  <span class=\\"token assign-left variable\\">filename</span><span class=\\"token operator\\">=</span><span class=\\"token string\\">\\"<span class=\\"token variable\\">\${f<span class=\\"token operator\\">%</span>.*}</span>\\"</span>
-  <span class=\\"token builtin class-name\\">echo</span> <span class=\\"token string\\">\\"Converting <span class=\\"token variable\\">$f</span> to <span class=\\"token variable\\">$filename</span>.adoc\\"</span>
-  <span class=\\"token variable\\"><span class=\\"token variable\\">\`</span>pandoc $f -f markdown -t asciidoctor -o $filename.adoc<span class=\\"token variable\\">\`</span></span>
-<span class=\\"token keyword\\">done</span></code></pre>
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">FILES=*.md
+<span class=\\"hljs-keyword\\">for</span> f <span class=\\"hljs-keyword\\">in</span> <span class=\\"hljs-variable\\">$FILES</span>
+<span class=\\"hljs-keyword\\">do</span>
+  filename=<span class=\\"hljs-string\\">\\"<span class=\\"hljs-variable\\">\${f%.*}</span>\\"</span>
+  <span class=\\"hljs-built_in\\">echo</span> <span class=\\"hljs-string\\">\\"Converting <span class=\\"hljs-variable\\">$f</span> to <span class=\\"hljs-variable\\">$filename</span>.adoc\\"</span>
+  \`pandoc <span class=\\"hljs-variable\\">$f</span> -f markdown -t asciidoctor -o <span class=\\"hljs-variable\\">$filename</span>.adoc\`
+<span class=\\"hljs-keyword\\">done</span></code></pre>
+</div>
+</div>"
+`;
+
+exports[`snowpack-plugin-asciidoctor should include files: include 1`] = `
+"<div class=\\"paragraph\\">
+<p>It’s fair to say that React 16.8 and the introduction of
+<a href=\\"https://reactjs.org/docs/hooks-intro.html\\">hooks</a> has really changed how
+we write React. Hooks are one of those APIs that make you realise the
+flaws of the previous approach <em>after</em> you stop using it. I remember
+being very skeptical of hooks when they were first released, not
+thinking that the previous class based design had many flaws, but I’ve
+since come to realise I was very wrong, and hooks are a vast improvement
+on how we build React components. If you’re interested in comparing the
+old vs the new, I wrote a <a href=\\"/refactoring-to-react-hooks/\\">blog post
+refactoring a component to use hooks</a> that offers a nice comparison.</p>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-py\\" data-lang=\\"py\\">def main():
+    pass</code></pre>
+</div>
+</div>
+<div class=\\"admonitionblock warning\\">
+<table>
+<tr>
+<td class=\\"icon\\">
+<div class=\\"title\\">Warning</div>
+</td>
+<td class=\\"content\\">
+Wolpertingers are known to nest in server racks.
+Enter at your own risk.
+</td>
+</tr>
+</table>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">void main</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\">int main () {
+    return 0;
+}</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">bash file include</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">FILES=*.md
+for f in $FILES
+do
+  filename=\\"\${f%.*}\\"
+  echo \\"Converting $f to $filename.adoc\\"
+  \`pandoc $f -f markdown -t asciidoctor -o $filename.adoc\`
+done</code></pre>
 </div>
 </div>"
 `;

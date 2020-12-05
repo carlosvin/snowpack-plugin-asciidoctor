@@ -1,15 +1,15 @@
 {
-  "name": "snowpack-plugin-mdsvex",
+  "name": "snowpack-plugin-asciidoctor",
   "version": "0.2.2",
   "homepage": "https://github.com/Studiobear/snowpack-plugin-mdsvex#readme",
-  "repository": "github:Studiobear/snowpack-plugin-mdsvex",
-  "description": "Include Svelte-enhanced markdown files via MDSVEX with Snowpack",
+  "repository": "github:carlosvin/snowpack-plugin-asciidoctor",
+  "description": "Include Svelte-enhanced markdown files via Asciidoctor with Snowpack",
   "keywords": [
-    "snowpack plugin mdsvex",
+    "snowpack plugin asciidoctor",
     "snowpack plugin",
     "snowpack",
-    "mdsvex",
-    "snowpack mdsvex"
+    "asciidoctor",
+    "snowpack asciidoctor"
   ],
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -69,9 +69,9 @@
     "@commitlint/cli": "^11.0.0",
     "@commitlint/config-conventional": "^11.0.0",
     "@rollup/plugin-node-resolve": "^9.0.0",
-    "@snowpack/app-scripts-svelte": "^1.8.5",
     "@types/jest": "^26.0.14",
-    "asciidoctor": "^2.2.0",
+    "asciidoctor": "^2.2.1",
+    "asciidoctor-highlight.js": "^0.2.1",
     "asciidoctor-prism-extension": "^2.0.6",
     "babel-jest": "^26.3.0",
     "bundlesize": "^0.18.0",
