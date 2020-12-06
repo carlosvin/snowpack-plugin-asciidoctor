@@ -1,8 +1,9 @@
 import path from 'path'
 import { promises as fs } from 'fs'
 const snowpackPluginAdoc = require('../index.ts')
+import MockDate from 'mockdate'
 
-Date.now = jest.fn(() => 1482363367071)
+MockDate.set(1482363367071)
 
 describe('snowpack-plugin-asciidoctor', () => {
   it('should compile .adoc files', async () => {
