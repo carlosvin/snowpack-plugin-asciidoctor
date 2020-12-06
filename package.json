@@ -1,9 +1,9 @@
 {
   "name": "snowpack-plugin-asciidoctor",
-  "version": "0.2.2",
-  "homepage": "https://github.com/Studiobear/snowpack-plugin-mdsvex#readme",
+  "version": "0.0.1",
+  "homepage": "https://github.com/carlosvin/snowpack-plugin-asciidoctor#readme",
   "repository": "github:carlosvin/snowpack-plugin-asciidoctor",
-  "description": "Include Svelte-enhanced markdown files via Asciidoctor with Snowpack",
+  "description": "Snowpack plugin to include and parse Asciidoctor files and convert them to .js",
   "keywords": [
     "snowpack plugin asciidoctor",
     "snowpack plugin",
@@ -14,7 +14,7 @@
   "source": "src/index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "author": "Barry Low <barry@studiobear.co>",
+  "author": "Carlos Martin Sanchez <carlosvin@gmail.com>",
   "license": "MIT",
   "scripts": {
     "bundle": "tsc -b",
