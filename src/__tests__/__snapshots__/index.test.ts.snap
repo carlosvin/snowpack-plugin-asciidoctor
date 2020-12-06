@@ -1,136 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snowpack-plugin-asciidoctor should compile .adoc files 1`] = `
-Object {
-  "filePath": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/test.adoc",
-  "html": "<div class=\\"paragraph\\">
-<p>It’s fair to say that React 16.8 and the introduction of
-<a href=\\"https://reactjs.org/docs/hooks-intro.html\\">hooks</a> has really changed how
-we write React. Hooks are one of those APIs that make you realise the
-flaws of the previous approach <em>after</em> you stop using it. I remember
-being very skeptical of hooks when they were first released, not
-thinking that the previous class based design had many flaws, but I’ve
-since come to realise I was very wrong, and hooks are a vast improvement
-on how we build React components. If you’re interested in comparing the
-old vs the new, I wrote a <a href=\\"/refactoring-to-react-hooks/\\">blog post
-refactoring a component to use hooks</a> that offers a nice comparison.</p>
-</div>
-<div class=\\"listingblock\\">
-<div class=\\"content\\">
-<pre class=\\"highlight\\"><code class=\\"language-py\\" data-lang=\\"py\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">def</span> <span class=\\"hljs-title\\">main</span><span class=\\"hljs-params\\">()</span>:</span>
-    <span class=\\"hljs-keyword\\">pass</span></code></pre>
-</div>
-</div>
-<div class=\\"admonitionblock warning\\">
-<table>
-<tr>
-<td class=\\"icon\\">
-<div class=\\"title\\">Warning</div>
-</td>
-<td class=\\"content\\">
-Wolpertingers are known to nest in server racks.
-Enter at your own risk.
-</td>
-</tr>
-</table>
-</div>
-<div class=\\"listingblock\\">
-<div class=\\"title\\">void main</div>
-<div class=\\"content\\">
-<pre class=\\"highlight\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">int</span> <span class=\\"hljs-title\\">main</span> <span class=\\"hljs-params\\">()</span> </span>{
-    <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-number\\">0</span>;
-}</code></pre>
-</div>
-</div>
-<div class=\\"listingblock\\">
-<div class=\\"title\\">bash file include</div>
-<div class=\\"content\\">
-<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">FILES=*.md
-<span class=\\"hljs-keyword\\">for</span> f <span class=\\"hljs-keyword\\">in</span> <span class=\\"hljs-variable\\">$FILES</span>
-<span class=\\"hljs-keyword\\">do</span>
-  filename=<span class=\\"hljs-string\\">\\"<span class=\\"hljs-variable\\">\${f%.*}</span>\\"</span>
-  <span class=\\"hljs-built_in\\">echo</span> <span class=\\"hljs-string\\">\\"Converting <span class=\\"hljs-variable\\">$f</span> to <span class=\\"hljs-variable\\">$filename</span>.adoc\\"</span>
-  \`pandoc <span class=\\"hljs-variable\\">$f</span> -f markdown -t asciidoctor -o <span class=\\"hljs-variable\\">$filename</span>.adoc\`
-<span class=\\"hljs-keyword\\">done</span></code></pre>
-</div>
-</div>",
-  "metadata": Object {
-    "appendix-caption": "Appendix",
-    "appendix-refsig": "Appendix",
-    "asciidoctor": "",
-    "asciidoctor-version": "2.0.12",
-    "asdf": "made up attr",
-    "attribute-missing": "skip",
-    "attribute-undefined": "drop-line",
-    "author": "Doc Writer",
-    "authorcount": 1,
-    "authorinitials": "DW",
-    "authors": "Doc Writer",
-    "backend": "html5",
-    "backend-html5": "",
-    "backend-html5-doctype-article": "",
-    "basebackend": "html",
-    "basebackend-html": "",
-    "basebackend-html-doctype-article": "",
-    "caution-caption": "Caution",
-    "chapter-refsig": "Chapter",
-    "docdate": "2020-11-22",
-    "docdatetime": "2020-11-22 21:22:18 +0100",
-    "docdir": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__",
-    "docfile": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/test.adoc",
-    "docfilesuffix": ".adoc",
-    "docname": "test",
-    "doctime": "21:22:18 +0100",
-    "doctitle": "My Document's Title",
-    "doctype": "article",
-    "doctype-article": "",
-    "docyear": "2020",
-    "email": "doc.writer@asciidoctor.org",
-    "embedded": "",
-    "example-caption": "Example",
-    "figure-caption": "Figure",
-    "filetype": "html",
-    "filetype-html": "",
-    "firstname": "Doc",
-    "htmlsyntax": "html",
-    "iconsdir": "./images/icons",
-    "important-caption": "Important",
-    "intro": "A short post today about an easy tactic to avoid your useEffect calls becoming recursive when setting state.",
-    "last-update-label": "Last updated",
-    "lastname": "Writer",
-    "layout": "post",
-    "localdate": "2016-12-22",
-    "localdatetime": "2016-12-22 00:36:07 +0100",
-    "localtime": "00:36:07 +0100",
-    "localyear": "2016",
-    "max-include-depth": 64,
-    "note-caption": "Note",
-    "notitle": "",
-    "outfilesuffix": ".html",
-    "part-refsig": "Part",
-    "prewrap": "",
-    "revdate": "2014-01-01",
-    "revnumber": "1.0",
-    "safe-mode-level": 0,
-    "safe-mode-name": "unsafe",
-    "safe-mode-unsafe": "",
-    "sectids": "",
-    "section-refsig": "Section",
-    "source-highlighter": "highlightjs-ext",
-    "stylesdir": ".",
-    "table-caption": "Table",
-    "tip-caption": "Tip",
-    "toc-placement": "auto",
-    "toc-title": "Table of Contents",
-    "untitled-label": "Untitled",
-    "user-home": "/home/carlos",
-    "version-label": "Version",
-    "warning-caption": "Warning",
-  },
-}
-`;
-
-exports[`snowpack-plugin-asciidoctor should include files 1`] = `
+exports[`snowpack-plugin-asciidoctor should add asciidoctor attributes 1`] = `
 Object {
   "filePath": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/a-post.adoc",
   "html": "<div id=\\"toc\\" class=\\"toc\\">
@@ -140,7 +10,12 @@ Object {
 <li><a href=\\"#_snowpack\\">Snowpack</a></li>
 <li><a href=\\"#_example\\">Example</a>
 <ul class=\\"sectlevel2\\">
-<li><a href=\\"#_build\\">Build</a></li>
+<li><a href=\\"#_build\\">Build</a>
+<ul class=\\"sectlevel3\\">
+<li><a href=\\"#_ssr\\">SSR</a></li>
+<li><a href=\\"#_pure_static_site\\">Pure static site</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -304,6 +179,7 @@ npm install</code></pre>
     "attribute-missing": "skip",
     "attribute-undefined": "drop-line",
     "authorcount": 0,
+    "authorinitials": "CMS",
     "backend": "html5",
     "backend-html5": "",
     "backend-html5-doctype-article": "",
@@ -312,6 +188,7 @@ npm install</code></pre>
     "basebackend-html-doctype-article": "",
     "caution-caption": "Caution",
     "chapter-refsig": "Chapter",
+    "copyright": "Carlos MS 2020",
     "date": "2020-10-25",
     "description": "Echoing Richard Harris announcements in Svelte Summit 2020: Sapper 1.0 never gonna happen, the new Svelte Kit, Snowpack as build tool, Javascript Module System.",
     "docdate": "2020-12-06",
@@ -364,12 +241,143 @@ npm install</code></pre>
     "toc": "",
     "toc-placement": "auto",
     "toc-title": "Table of Contents",
+    "toclevels": 5,
     "untitled-label": "Untitled",
     "user-home": "/home/carlos",
     "version-label": "Version",
     "video": "https://www.youtube.com/watch?v=qSfdtmcZ4d0[Rich Harris: Futuristic Web Development,window=_blank]",
     "warning-caption": "Warning",
     "webpack": "https://webpack.js.org[Webpack,window=_blank]",
+  },
+}
+`;
+
+exports[`snowpack-plugin-asciidoctor should compile .adoc files 1`] = `
+Object {
+  "filePath": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/test.adoc",
+  "html": "<div class=\\"paragraph\\">
+<p>It’s fair to say that React 16.8 and the introduction of
+<a href=\\"https://reactjs.org/docs/hooks-intro.html\\">hooks</a> has really changed how
+we write React. Hooks are one of those APIs that make you realise the
+flaws of the previous approach <em>after</em> you stop using it. I remember
+being very skeptical of hooks when they were first released, not
+thinking that the previous class based design had many flaws, but I’ve
+since come to realise I was very wrong, and hooks are a vast improvement
+on how we build React components. If you’re interested in comparing the
+old vs the new, I wrote a <a href=\\"/refactoring-to-react-hooks/\\">blog post
+refactoring a component to use hooks</a> that offers a nice comparison.</p>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-py\\" data-lang=\\"py\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">def</span> <span class=\\"hljs-title\\">main</span><span class=\\"hljs-params\\">()</span>:</span>
+    <span class=\\"hljs-keyword\\">pass</span></code></pre>
+</div>
+</div>
+<div class=\\"admonitionblock warning\\">
+<table>
+<tr>
+<td class=\\"icon\\">
+<div class=\\"title\\">Warning</div>
+</td>
+<td class=\\"content\\">
+Wolpertingers are known to nest in server racks.
+Enter at your own risk.
+</td>
+</tr>
+</table>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">void main</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">int</span> <span class=\\"hljs-title\\">main</span> <span class=\\"hljs-params\\">()</span> </span>{
+    <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-number\\">0</span>;
+}</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">bash file include</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">FILES=*.md
+<span class=\\"hljs-keyword\\">for</span> f <span class=\\"hljs-keyword\\">in</span> <span class=\\"hljs-variable\\">$FILES</span>
+<span class=\\"hljs-keyword\\">do</span>
+  filename=<span class=\\"hljs-string\\">\\"<span class=\\"hljs-variable\\">\${f%.*}</span>\\"</span>
+  <span class=\\"hljs-built_in\\">echo</span> <span class=\\"hljs-string\\">\\"Converting <span class=\\"hljs-variable\\">$f</span> to <span class=\\"hljs-variable\\">$filename</span>.adoc\\"</span>
+  \`pandoc <span class=\\"hljs-variable\\">$f</span> -f markdown -t asciidoctor -o <span class=\\"hljs-variable\\">$filename</span>.adoc\`
+<span class=\\"hljs-keyword\\">done</span></code></pre>
+</div>
+</div>",
+  "metadata": Object {
+    "appendix-caption": "Appendix",
+    "appendix-refsig": "Appendix",
+    "asciidoctor": "",
+    "asciidoctor-version": "2.0.12",
+    "asdf": "made up attr",
+    "attribute-missing": "skip",
+    "attribute-undefined": "drop-line",
+    "author": "Doc Writer",
+    "authorcount": 1,
+    "authorinitials": "DW",
+    "authors": "Doc Writer",
+    "backend": "html5",
+    "backend-html5": "",
+    "backend-html5-doctype-article": "",
+    "basebackend": "html",
+    "basebackend-html": "",
+    "basebackend-html-doctype-article": "",
+    "caution-caption": "Caution",
+    "chapter-refsig": "Chapter",
+    "docdate": "2020-11-22",
+    "docdatetime": "2020-11-22 21:22:18 +0100",
+    "docdir": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__",
+    "docfile": "/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/test.adoc",
+    "docfilesuffix": ".adoc",
+    "docname": "test",
+    "doctime": "21:22:18 +0100",
+    "doctitle": "My Document's Title",
+    "doctype": "article",
+    "doctype-article": "",
+    "docyear": "2020",
+    "email": "doc.writer@asciidoctor.org",
+    "embedded": "",
+    "example-caption": "Example",
+    "figure-caption": "Figure",
+    "filetype": "html",
+    "filetype-html": "",
+    "firstname": "Doc",
+    "htmlsyntax": "html",
+    "iconsdir": "./images/icons",
+    "important-caption": "Important",
+    "intro": "A short post today about an easy tactic to avoid your useEffect calls becoming recursive when setting state.",
+    "last-update-label": "Last updated",
+    "lastname": "Writer",
+    "layout": "post",
+    "localdate": "2016-12-22",
+    "localdatetime": "2016-12-22 00:36:07 +0100",
+    "localtime": "00:36:07 +0100",
+    "localyear": "2016",
+    "max-include-depth": 64,
+    "note-caption": "Note",
+    "notitle": "",
+    "outfilesuffix": ".html",
+    "part-refsig": "Part",
+    "prewrap": "",
+    "revdate": "2014-01-01",
+    "revnumber": "1.0",
+    "safe-mode-level": 0,
+    "safe-mode-name": "unsafe",
+    "safe-mode-unsafe": "",
+    "sectids": "",
+    "section-refsig": "Section",
+    "source-highlighter": "highlightjs-ext",
+    "stylesdir": ".",
+    "table-caption": "Table",
+    "tip-caption": "Tip",
+    "toc-placement": "auto",
+    "toc-title": "Table of Contents",
+    "untitled-label": "Untitled",
+    "user-home": "/home/carlos",
+    "version-label": "Version",
+    "warning-caption": "Warning",
   },
 }
 `;

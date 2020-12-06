@@ -13,17 +13,17 @@ describe('snowpack-plugin-asciidoctor', () => {
     expect(result).toMatchSnapshot()
   })
 
-  it('should include files', async () => {
+  it('should add asciidoctor attributes', async () => {
     const filePath = path.join(__dirname, '__fixtures__/a-post.adoc')
-    const contents = await fs.readFile(filePath, 'utf-8')
     const plugin = snowpackPluginAdoc(
       {},
       {
-        include: ['**/*.adoc'],
+        authorinitials: 'CMS',
+        copyright: 'Carlos MS 2020',
+        toclevels: 5,
       },
     )
-    const result = await plugin.load({ contents, filePath })
-    expect(result).not.toBeNull()
+    const result = await plugin.load({ filePath })
     expect(result).toMatchSnapshot()
   })
 })

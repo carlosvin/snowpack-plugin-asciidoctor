@@ -5,15 +5,13 @@ const asciidoctor = require('@asciidoctor/core')()
 const highlightJsExt = require('asciidoctor-highlight.js')
 highlightJsExt.register(asciidoctor.Extensions)
 
-const DEFAULTS: SnowpackPluginAsciidocOptions = {
-  asciidocOptions: {
-    'source-highlighter': 'highlightjs-ext',
-  },
+const DEFAULTS: AssciidoctorAttributes = {
+  'source-highlighter': 'highlightjs-ext',
 }
 
 module.exports = function plugin(
   snowpackConfig: SnowpackConfig,
-  pluginOptions: SnowpackPluginAsciidocOptions,
+  pluginOptions: AssciidoctorAttributes,
 ) {
   if (!pluginOptions || Object.keys(pluginOptions).length === 0) {
     pluginOptions = DEFAULTS
@@ -29,9 +27,7 @@ module.exports = function plugin(
         mkdirs: true,
         base_dir: path.dirname(filePath),
         safe: 'unsafe',
-        attributes: {
-          ...pluginOptions.asciidocOptions,
-        },
+        attributes: { ...pluginOptions },
       }
       const doc = asciidoctor.loadFile(filePath, opts)
 
@@ -44,9 +40,8 @@ module.exports = function plugin(
   }
 }
 
-export interface SnowpackPluginAsciidocOptions {
-  /**
-   * These options are passed directly to the Asciidoctor.js compiler.
-   */
-  asciidocOptions?: Record<string, any>
-}
+/**
+ * These options are passed directly to the Asciidoctor.js compiler.
+ * The full attribute catalog: https://asciidoctor.org/docs/user-manual/#attribute-catalog
+ */
+export interface AssciidoctorAttributes extends Record<string, any> {}
