@@ -11,11 +11,8 @@ const DEFAULTS: AssciidoctorAttributes = {
 
 module.exports = function plugin(
   snowpackConfig: SnowpackConfig,
-  pluginOptions: AssciidoctorAttributes,
+  pluginOptions: AssciidoctorAttributes = {},
 ) {
-  if (!pluginOptions || Object.keys(pluginOptions).length === 0) {
-    pluginOptions = DEFAULTS
-  }
   return {
     name: 'snowpack-plugin-asciidoctor',
     resolve: {
@@ -27,7 +24,7 @@ module.exports = function plugin(
         mkdirs: true,
         base_dir: path.dirname(filePath),
         safe: 'unsafe',
-        attributes: { ...pluginOptions },
+        attributes: { ...DEFAULTS, ...pluginOptions },
       }
       const doc = asciidoctor.loadFile(filePath, opts)
 
