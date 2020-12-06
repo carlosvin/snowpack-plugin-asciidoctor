@@ -1,5 +1,4 @@
 import path from 'path'
-import { promises as fs } from 'fs'
 const snowpackPluginAdoc = require('../index.ts')
 import MockDate from 'mockdate'
 
