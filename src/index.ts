@@ -27,11 +27,14 @@ module.exports = function plugin(
         attributes: { ...DEFAULTS, ...pluginOptions },
       }
       const doc = asciidoctor.loadFile(filePath, opts)
-
       return {
-        filePath,
-        html: doc.convert(),
-        metadata: doc.getAttributes(),
+        '.js': {
+          code: `export const doc = {
+            filePath: "${filePath}",
+            html: "${escape(doc.convert())}",
+            metadata: ${JSON.stringify(doc.getAttributes(), null, 2)}
+          };`,
+        },
       }
     },
   }

@@ -6,7 +6,7 @@ yarn add snowpack-plugin-ascciidoctor --dev
 
 Update your snowpack config:
 
-```js
+```json
 // snowpack.config.json
 {
   "plugins": [
@@ -14,6 +14,23 @@ Update your snowpack config:
     ["snowpack-plugin-ascciidoctor", { /* see "Plugin Options" below */ }],
     ...
   ]
+}
+```
+
+```js
+// your-file.js
+
+import { doc } from './test.adoc'
+
+console.log('Doc', doc)
+
+// Prints
+{
+  filePath: '/home/your/test.adoc'
+  html: 'escaped html'
+  metadata: {
+    //  asciidoctor document attributes
+  }
 }
 ```
 
