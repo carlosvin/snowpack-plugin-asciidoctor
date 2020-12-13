@@ -31,7 +31,7 @@ module.exports = function plugin(
         '.js': {
           code: `export const doc = {
             filePath: "${filePath}",
-            html: "${escape(doc.convert())}",
+            html: \`${doc.convert()}\`,
             metadata: ${JSON.stringify(doc.getAttributes(), null, 2)}
           };`,
         },

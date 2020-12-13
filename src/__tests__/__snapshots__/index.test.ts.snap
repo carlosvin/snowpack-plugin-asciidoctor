@@ -5,7 +5,174 @@ Object {
   ".js": Object {
     "code": "export const doc = {
             filePath: \\"/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/a-post.adoc\\",
-            html: \\"%3Cdiv%20id%3D%22toc%22%20class%3D%22toc%22%3E%0A%3Cdiv%20id%3D%22toctitle%22%3ETable%20of%20Contents%3C/div%3E%0A%3Cul%20class%3D%22sectlevel1%22%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_sapper_1_0_is_not_going_to_happen%22%3ESapper%201.0%20is%20not%20going%20to%20happen%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_snowpack%22%3ESnowpack%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_example%22%3EExample%3C/a%3E%0A%3Cul%20class%3D%22sectlevel2%22%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_build%22%3EBuild%3C/a%3E%0A%3Cul%20class%3D%22sectlevel3%22%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_ssr%22%3ESSR%3C/a%3E%3C/li%3E%0A%3Cli%3E%3Ca%20href%3D%22%23_pure_static_site%22%3EPure%20static%20site%3C/a%3E%3C/li%3E%0A%3C/ul%3E%0A%3C/li%3E%0A%3C/ul%3E%0A%3C/li%3E%0A%3C/ul%3E%0A%3C/div%3E%0A%3Cdiv%20id%3D%22preamble%22%3E%0A%3Cdiv%20class%3D%22sectionbody%22%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EToday%20I%20finally%20got%20some%20time%20to%20watch%20the%20video%20%3Ca%20href%3D%22https%3A//www.youtube.com/watch%3Fv%3DqSfdtmcZ4d0%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ERich%20Harris%3A%20Futuristic%20Web%20Development%3C/a%3E%20recorded%20at%20%3Ca%20href%3D%22https%3A//sveltesummit.com/%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESvelte%20Summit%202020%3C/a%3E.%20If%20you%20have%2020%20minutes%2C%20just%20stop%20reading%20and%20%3Ca%20href%3D%22https%3A//www.youtube.com/watch%3Fv%3DqSfdtmcZ4d0%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3Ewatch%20it%3C/a%3E.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22admonitionblock%20tip%22%3E%0A%3Ctable%3E%0A%3Ctr%3E%0A%3Ctd%20class%3D%22icon%22%3E%0A%3Cdiv%20class%3D%22title%22%3ETip%3C/div%3E%0A%3C/td%3E%0A%3Ctd%20class%3D%22content%22%3E%0AIf%20you%20have%2020%20minutes%2C%20just%20stop%20reading%20and%20watch%20%3Ca%20href%3D%22https%3A//www.youtube.com/watch%3Fv%3DqSfdtmcZ4d0%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ERich%20Harris%3A%20Futuristic%20Web%20Development%3C/a%3E%20video.%0A%3C/td%3E%0A%3C/tr%3E%0A%3C/table%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect1%22%3E%0A%3Ch2%20id%3D%22_sapper_1_0_is_not_going_to_happen%22%3ESapper%201.0%20is%20not%20going%20to%20happen%3C/h2%3E%0A%3Cdiv%20class%3D%22sectionbody%22%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EAs%20you%20might%20know%2C%20this%20blog%20is%20powered%20by%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E.%20I%20am%20already%20quite%20happy%20with%20it%2C%20so%20when%20I%20hear%20this%20announcement%2C%20I%20felt%20like%20when%20they%20cancel%20a%20TV%20Series%20that%20I%20am%20enjoying.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EHappily%2C%20there%20is%20a%20good%20reason%2C%20there%20is%20going%20to%20be%20a%20better%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E%2C%20I%20think%20they%20will%20call%20it%20svelte-kit%2C%20it%20is%20solving%20some%20issues%20and%20improving%20some%20aspects%20of%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E%2C%20but%20the%20main%20benefit%2C%20in%20my%20opinion%2C%20is%20that%20you%20won%26%238217%3Bt%20have%20to%20choose%20between%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E%20or%20%3Ca%20href%3D%22https%3A//svelte.dev/%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESvelte%3C/a%3E%20when%20you%20start%20a%20new%20application%2C%20everything%20will%20be%20supported%20by%20the%20%3Ca%20href%3D%22https%3A//svelte.dev/%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESvelte%3C/a%3E%20ecosystem.%3C/p%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect1%22%3E%0A%3Ch2%20id%3D%22_snowpack%22%3ESnowpack%3C/h2%3E%0A%3Cdiv%20class%3D%22sectionbody%22%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3E%3Ca%20href%3D%22https%3A//www.snowpack.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESnowpack%3C/a%3E%20will%20become%20the%20default%20%3Ca%20href%3D%22https%3A//svelte.dev/%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESvelte%3C/a%3E%20builder.%20It%20is%20not%20a%20regular%20bundler%20like%20%3Ca%20href%3D%22https%3A//webpack.js.org%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EWebpack%3C/a%3E%20or%20%3Ca%20href%3D%22https%3A//rollupjs.org/%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ERollup%3C/a%3E.%20It%20relies%20on%20%3Ca%20href%3D%22https%3A//developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3EJavascript%20modules%3C/a%3E%20so%20your%20application%20delegate%20the%20modules%20loading%20on%20the%20web%20browser%3B%20traditionally%20the%20chunks%20are%20loaded%20by%20the%20bundler%20%28or%20by%20source%20code%20injected%20by%20the%20bundler%29.%3C/p%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect1%22%3E%0A%3Ch2%20id%3D%22_example%22%3EExample%3C/h2%3E%0A%3Cdiv%20class%3D%22sectionbody%22%3E%0A%3Cdiv%20class%3D%22admonitionblock%20note%22%3E%0A%3Ctable%3E%0A%3Ctr%3E%0A%3Ctd%20class%3D%22icon%22%3E%0A%3Cdiv%20class%3D%22title%22%3ENote%3C/div%3E%0A%3C/td%3E%0A%3Ctd%20class%3D%22content%22%3E%0AThis%20example%20is%20just%20a%20copy%20from%20the%20%3Ca%20href%3D%22https%3A//www.youtube.com/watch%3Fv%3DqSfdtmcZ4d0%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ERich%20Harris%3A%20Futuristic%20Web%20Development%3C/a%3E%20video.%0A%3C/td%3E%0A%3C/tr%3E%0A%3C/table%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3EHow%20to%20create%20the%20sample%20project%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Emkdir%20svelte-next-sample%0A%3Cspan%20class%3D%22hljs-built_in%22%3Ecd%3C/span%3E%20svelte-next-sample%0Anpm%20init%20svelte@next%0Anpm%20install%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3EStart%20development%20server%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Enpm%20run%20dev%0A%0A%5Bsnowpack%5D%20%26gt%3B%20Listening%20on%20http%3A//localhost%3A3000%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EYou%20will%20find%20many%20similarities%20with%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E%2C%20like%20the%20%3Ccode%3Eroutes%3C/code%3E%20and%20%3Ccode%3Ecomponents%3C/code%3E%20folders.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect2%22%3E%0A%3Ch3%20id%3D%22_build%22%3EBuild%3C/h3%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3EBuild%20the%20project%20for%20production%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Enpm%20run%20build%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect3%22%3E%0A%3Ch4%20id%3D%22_ssr%22%3ESSR%3C/h4%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EBy%20default%20the%20project%20is%20configured%20with%20SSR%20rendering%20enabled.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3ESSR%20with%20nodejs%20server%20and%20client%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Enpm%20run%20build%0A...%0A%0A%26gt%3B%20Optimizing...%0A%20%20%u2714%20server%0A%20%20%u2714%20client%0A%0A%26gt%3B%20Generating%20app...%0A%20%20Using%20@sveltejs/adapter-node%20%3Cb%20class%3D%22conum%22%3E%281%29%3C/b%3E%0A%20%20Prerendering%20static%20pages...%0A%20%20%u2714%20%3Cspan%20class%3D%22hljs-keyword%22%3Edone%3C/span%3E%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22colist%20arabic%22%3E%0A%3Col%3E%0A%3Cli%3E%0A%3Cp%3EThis%20is%20the%20default%20adapter%20to%20generate%20SSR%20application%20with%20a%20nodejs%20server%20and%20a%20client.%3C/p%3E%0A%3C/li%3E%0A%3C/ol%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22sect3%22%3E%0A%3Ch4%20id%3D%22_pure_static_site%22%3EPure%20static%20site%3C/h4%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EThis%20blog%20is%20a%20pure%20static%20website%2C%20it%20doesn%26%238217%3Bt%20require%20a%20server.%20With%20%3Ca%20href%3D%22https%3A//sapper.svelte.dev%22%20target%3D%22_blank%22%20rel%3D%22noopener%22%3ESapper%3C/a%3E%20we%20have%20the%20option%20to%20execute%20%3Ccode%3Esapper%20export%3C/code%3E%20and%20it%20generates%20the%20app%20with%20no%20server%20required.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EWith%20this%20new%20approach%2C%20to%20generate%20a%20static%20site%2C%20we%20just%20have%20to%20use%20a%20different%20adapter%3A%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Enpm%20i%20-D%20@sveltejs/adapter-static%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3Esvelte.config.js%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-javascript%22%20data-lang%3D%22javascript%22%3E%3Cspan%20class%3D%22hljs-built_in%22%3Emodule%3C/span%3E.exports%20%3D%20%7B%0A%09%3Cspan%20class%3D%22hljs-attr%22%3Eadapter%3C/span%3E%3A%20%3Cspan%20class%3D%22hljs-string%22%3E%27@sveltejs/adapter-static%27%3C/span%3E%0A%7D%3B%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3Enpm%20run%20build%0A%0A%26gt%3B%20Generating%20app...%0A%20%20Using%20@sveltejs/adapter-static%20%3Cb%20class%3D%22conum%22%3E%281%29%3C/b%3E%0A%20%20%u2714%20%3Cspan%20class%3D%22hljs-keyword%22%3Edone%3C/span%3E%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22colist%20arabic%22%3E%0A%3Col%3E%0A%3Cli%3E%0A%3Cp%3EThe%20static%20adapter%20is%20selected%3C/p%3E%0A%3C/li%3E%0A%3C/ol%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3C/div%3E\\",
+            html: \`<div id=\\"toc\\" class=\\"toc\\">
+<div id=\\"toctitle\\">Table of Contents</div>
+<ul class=\\"sectlevel1\\">
+<li><a href=\\"#_sapper_1_0_is_not_going_to_happen\\">Sapper 1.0 is not going to happen</a></li>
+<li><a href=\\"#_snowpack\\">Snowpack</a></li>
+<li><a href=\\"#_example\\">Example</a>
+<ul class=\\"sectlevel2\\">
+<li><a href=\\"#_build\\">Build</a>
+<ul class=\\"sectlevel3\\">
+<li><a href=\\"#_ssr\\">SSR</a></li>
+<li><a href=\\"#_pure_static_site\\">Pure static site</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div id=\\"preamble\\">
+<div class=\\"sectionbody\\">
+<div class=\\"paragraph\\">
+<p>Today I finally got some time to watch the video <a href=\\"https://www.youtube.com/watch?v=qSfdtmcZ4d0\\" target=\\"_blank\\" rel=\\"noopener\\">Rich Harris: Futuristic Web Development</a> recorded at <a href=\\"https://sveltesummit.com/\\" target=\\"_blank\\" rel=\\"noopener\\">Svelte Summit 2020</a>. If you have 20 minutes, just stop reading and <a href=\\"https://www.youtube.com/watch?v=qSfdtmcZ4d0\\" target=\\"_blank\\" rel=\\"noopener\\">watch it</a>.</p>
+</div>
+<div class=\\"admonitionblock tip\\">
+<table>
+<tr>
+<td class=\\"icon\\">
+<div class=\\"title\\">Tip</div>
+</td>
+<td class=\\"content\\">
+If you have 20 minutes, just stop reading and watch <a href=\\"https://www.youtube.com/watch?v=qSfdtmcZ4d0\\" target=\\"_blank\\" rel=\\"noopener\\">Rich Harris: Futuristic Web Development</a> video.
+</td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class=\\"sect1\\">
+<h2 id=\\"_sapper_1_0_is_not_going_to_happen\\">Sapper 1.0 is not going to happen</h2>
+<div class=\\"sectionbody\\">
+<div class=\\"paragraph\\">
+<p>As you might know, this blog is powered by <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a>. I am already quite happy with it, so when I hear this announcement, I felt like when they cancel a TV Series that I am enjoying.</p>
+</div>
+<div class=\\"paragraph\\">
+<p>Happily, there is a good reason, there is going to be a better <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a>, I think they will call it svelte-kit, it is solving some issues and improving some aspects of <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a>, but the main benefit, in my opinion, is that you won&#8217;t have to choose between <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a> or <a href=\\"https://svelte.dev/\\" target=\\"_blank\\" rel=\\"noopener\\">Svelte</a> when you start a new application, everything will be supported by the <a href=\\"https://svelte.dev/\\" target=\\"_blank\\" rel=\\"noopener\\">Svelte</a> ecosystem.</p>
+</div>
+</div>
+</div>
+<div class=\\"sect1\\">
+<h2 id=\\"_snowpack\\">Snowpack</h2>
+<div class=\\"sectionbody\\">
+<div class=\\"paragraph\\">
+<p><a href=\\"https://www.snowpack.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Snowpack</a> will become the default <a href=\\"https://svelte.dev/\\" target=\\"_blank\\" rel=\\"noopener\\">Svelte</a> builder. It is not a regular bundler like <a href=\\"https://webpack.js.org\\" target=\\"_blank\\" rel=\\"noopener\\">Webpack</a> or <a href=\\"https://rollupjs.org/\\" target=\\"_blank\\" rel=\\"noopener\\">Rollup</a>. It relies on <a href=\\"https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/import\\" target=\\"_blank\\" rel=\\"noopener\\">Javascript modules</a> so your application delegate the modules loading on the web browser; traditionally the chunks are loaded by the bundler (or by source code injected by the bundler).</p>
+</div>
+</div>
+</div>
+<div class=\\"sect1\\">
+<h2 id=\\"_example\\">Example</h2>
+<div class=\\"sectionbody\\">
+<div class=\\"admonitionblock note\\">
+<table>
+<tr>
+<td class=\\"icon\\">
+<div class=\\"title\\">Note</div>
+</td>
+<td class=\\"content\\">
+This example is just a copy from the <a href=\\"https://www.youtube.com/watch?v=qSfdtmcZ4d0\\" target=\\"_blank\\" rel=\\"noopener\\">Rich Harris: Futuristic Web Development</a> video.
+</td>
+</tr>
+</table>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">How to create the sample project</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">mkdir svelte-next-sample
+<span class=\\"hljs-built_in\\">cd</span> svelte-next-sample
+npm init svelte@next
+npm install</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">Start development server</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">npm run dev
+
+[snowpack] &gt; Listening on http://localhost:3000</code></pre>
+</div>
+</div>
+<div class=\\"paragraph\\">
+<p>You will find many similarities with <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a>, like the <code>routes</code> and <code>components</code> folders.</p>
+</div>
+<div class=\\"sect2\\">
+<h3 id=\\"_build\\">Build</h3>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">Build the project for production</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">npm run build</code></pre>
+</div>
+</div>
+<div class=\\"sect3\\">
+<h4 id=\\"_ssr\\">SSR</h4>
+<div class=\\"paragraph\\">
+<p>By default the project is configured with SSR rendering enabled.</p>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">SSR with nodejs server and client</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">npm run build
+...
+
+&gt; Optimizing...
+  ✔ server
+  ✔ client
+
+&gt; Generating app...
+  Using @sveltejs/adapter-node <b class=\\"conum\\">(1)</b>
+  Prerendering static pages...
+  ✔ <span class=\\"hljs-keyword\\">done</span></code></pre>
+</div>
+</div>
+<div class=\\"colist arabic\\">
+<ol>
+<li>
+<p>This is the default adapter to generate SSR application with a nodejs server and a client.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class=\\"sect3\\">
+<h4 id=\\"_pure_static_site\\">Pure static site</h4>
+<div class=\\"paragraph\\">
+<p>This blog is a pure static website, it doesn&#8217;t require a server. With <a href=\\"https://sapper.svelte.dev\\" target=\\"_blank\\" rel=\\"noopener\\">Sapper</a> we have the option to execute <code>sapper export</code> and it generates the app with no server required.</p>
+</div>
+<div class=\\"paragraph\\">
+<p>With this new approach, to generate a static site, we just have to use a different adapter:</p>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">npm i -D @sveltejs/adapter-static</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">svelte.config.js</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-javascript\\" data-lang=\\"javascript\\"><span class=\\"hljs-built_in\\">module</span>.exports = {
+	<span class=\\"hljs-attr\\">adapter</span>: <span class=\\"hljs-string\\">'@sveltejs/adapter-static'</span>
+};</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">npm run build
+
+&gt; Generating app...
+  Using @sveltejs/adapter-static <b class=\\"conum\\">(1)</b>
+  ✔ <span class=\\"hljs-keyword\\">done</span></code></pre>
+</div>
+</div>
+<div class=\\"colist arabic\\">
+<ol>
+<li>
+<p>The static adapter is selected</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+</div>\`,
             metadata: {
   \\"attribute-undefined\\": \\"drop-line\\",
   \\"attribute-missing\\": \\"skip\\",
@@ -95,7 +262,57 @@ Object {
   ".js": Object {
     "code": "export const doc = {
             filePath: \\"/home/carlos/workspace/snowpack-plugin-asciidoctor/src/__tests__/__fixtures__/test.adoc\\",
-            html: \\"%3Cdiv%20class%3D%22paragraph%22%3E%0A%3Cp%3EIt%u2019s%20fair%20to%20say%20that%20React%2016.8%20and%20the%20introduction%20of%0A%3Ca%20href%3D%22https%3A//reactjs.org/docs/hooks-intro.html%22%3Ehooks%3C/a%3E%20has%20really%20changed%20how%0Awe%20write%20React.%20Hooks%20are%20one%20of%20those%20APIs%20that%20make%20you%20realise%20the%0Aflaws%20of%20the%20previous%20approach%20%3Cem%3Eafter%3C/em%3E%20you%20stop%20using%20it.%20I%20remember%0Abeing%20very%20skeptical%20of%20hooks%20when%20they%20were%20first%20released%2C%20not%0Athinking%20that%20the%20previous%20class%20based%20design%20had%20many%20flaws%2C%20but%20I%u2019ve%0Asince%20come%20to%20realise%20I%20was%20very%20wrong%2C%20and%20hooks%20are%20a%20vast%20improvement%0Aon%20how%20we%20build%20React%20components.%20If%20you%u2019re%20interested%20in%20comparing%20the%0Aold%20vs%20the%20new%2C%20I%20wrote%20a%20%3Ca%20href%3D%22/refactoring-to-react-hooks/%22%3Eblog%20post%0Arefactoring%20a%20component%20to%20use%20hooks%3C/a%3E%20that%20offers%20a%20nice%20comparison.%3C/p%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-py%22%20data-lang%3D%22py%22%3E%3Cspan%20class%3D%22hljs-function%22%3E%3Cspan%20class%3D%22hljs-keyword%22%3Edef%3C/span%3E%20%3Cspan%20class%3D%22hljs-title%22%3Emain%3C/span%3E%3Cspan%20class%3D%22hljs-params%22%3E%28%29%3C/span%3E%3A%3C/span%3E%0A%20%20%20%20%3Cspan%20class%3D%22hljs-keyword%22%3Epass%3C/span%3E%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22admonitionblock%20warning%22%3E%0A%3Ctable%3E%0A%3Ctr%3E%0A%3Ctd%20class%3D%22icon%22%3E%0A%3Cdiv%20class%3D%22title%22%3EWarning%3C/div%3E%0A%3C/td%3E%0A%3Ctd%20class%3D%22content%22%3E%0AWolpertingers%20are%20known%20to%20nest%20in%20server%20racks.%0AEnter%20at%20your%20own%20risk.%0A%3C/td%3E%0A%3C/tr%3E%0A%3C/table%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3Evoid%20main%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-cpp%22%20data-lang%3D%22cpp%22%3E%3Cspan%20class%3D%22hljs-function%22%3E%3Cspan%20class%3D%22hljs-keyword%22%3Eint%3C/span%3E%20%3Cspan%20class%3D%22hljs-title%22%3Emain%3C/span%3E%20%3Cspan%20class%3D%22hljs-params%22%3E%28%29%3C/span%3E%20%3C/span%3E%7B%0A%20%20%20%20%3Cspan%20class%3D%22hljs-keyword%22%3Ereturn%3C/span%3E%20%3Cspan%20class%3D%22hljs-number%22%3E0%3C/span%3E%3B%0A%7D%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E%0A%3Cdiv%20class%3D%22listingblock%22%3E%0A%3Cdiv%20class%3D%22title%22%3Ebash%20file%20include%3C/div%3E%0A%3Cdiv%20class%3D%22content%22%3E%0A%3Cpre%20class%3D%22highlight%22%3E%3Ccode%20class%3D%22language-bash%22%20data-lang%3D%22bash%22%3EFILES%3D*.md%0A%3Cspan%20class%3D%22hljs-keyword%22%3Efor%3C/span%3E%20f%20%3Cspan%20class%3D%22hljs-keyword%22%3Ein%3C/span%3E%20%3Cspan%20class%3D%22hljs-variable%22%3E%24FILES%3C/span%3E%0A%3Cspan%20class%3D%22hljs-keyword%22%3Edo%3C/span%3E%0A%20%20filename%3D%3Cspan%20class%3D%22hljs-string%22%3E%22%3Cspan%20class%3D%22hljs-variable%22%3E%24%7Bf%25.*%7D%3C/span%3E%22%3C/span%3E%0A%20%20%3Cspan%20class%3D%22hljs-built_in%22%3Eecho%3C/span%3E%20%3Cspan%20class%3D%22hljs-string%22%3E%22Converting%20%3Cspan%20class%3D%22hljs-variable%22%3E%24f%3C/span%3E%20to%20%3Cspan%20class%3D%22hljs-variable%22%3E%24filename%3C/span%3E.adoc%22%3C/span%3E%0A%20%20%60pandoc%20%3Cspan%20class%3D%22hljs-variable%22%3E%24f%3C/span%3E%20-f%20markdown%20-t%20asciidoctor%20-o%20%3Cspan%20class%3D%22hljs-variable%22%3E%24filename%3C/span%3E.adoc%60%0A%3Cspan%20class%3D%22hljs-keyword%22%3Edone%3C/span%3E%3C/code%3E%3C/pre%3E%0A%3C/div%3E%0A%3C/div%3E\\",
+            html: \`<div class=\\"paragraph\\">
+<p>It’s fair to say that React 16.8 and the introduction of
+<a href=\\"https://reactjs.org/docs/hooks-intro.html\\">hooks</a> has really changed how
+we write React. Hooks are one of those APIs that make you realise the
+flaws of the previous approach <em>after</em> you stop using it. I remember
+being very skeptical of hooks when they were first released, not
+thinking that the previous class based design had many flaws, but I’ve
+since come to realise I was very wrong, and hooks are a vast improvement
+on how we build React components. If you’re interested in comparing the
+old vs the new, I wrote a <a href=\\"/refactoring-to-react-hooks/\\">blog post
+refactoring a component to use hooks</a> that offers a nice comparison.</p>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-py\\" data-lang=\\"py\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">def</span> <span class=\\"hljs-title\\">main</span><span class=\\"hljs-params\\">()</span>:</span>
+    <span class=\\"hljs-keyword\\">pass</span></code></pre>
+</div>
+</div>
+<div class=\\"admonitionblock warning\\">
+<table>
+<tr>
+<td class=\\"icon\\">
+<div class=\\"title\\">Warning</div>
+</td>
+<td class=\\"content\\">
+Wolpertingers are known to nest in server racks.
+Enter at your own risk.
+</td>
+</tr>
+</table>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">void main</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-cpp\\" data-lang=\\"cpp\\"><span class=\\"hljs-function\\"><span class=\\"hljs-keyword\\">int</span> <span class=\\"hljs-title\\">main</span> <span class=\\"hljs-params\\">()</span> </span>{
+    <span class=\\"hljs-keyword\\">return</span> <span class=\\"hljs-number\\">0</span>;
+}</code></pre>
+</div>
+</div>
+<div class=\\"listingblock\\">
+<div class=\\"title\\">bash file include</div>
+<div class=\\"content\\">
+<pre class=\\"highlight\\"><code class=\\"language-bash\\" data-lang=\\"bash\\">FILES=*.md
+<span class=\\"hljs-keyword\\">for</span> f <span class=\\"hljs-keyword\\">in</span> <span class=\\"hljs-variable\\">$FILES</span>
+<span class=\\"hljs-keyword\\">do</span>
+  filename=<span class=\\"hljs-string\\">\\"<span class=\\"hljs-variable\\">\${f%.*}</span>\\"</span>
+  <span class=\\"hljs-built_in\\">echo</span> <span class=\\"hljs-string\\">\\"Converting <span class=\\"hljs-variable\\">$f</span> to <span class=\\"hljs-variable\\">$filename</span>.adoc\\"</span>
+  \`pandoc <span class=\\"hljs-variable\\">$f</span> -f markdown -t asciidoctor -o <span class=\\"hljs-variable\\">$filename</span>.adoc\`
+<span class=\\"hljs-keyword\\">done</span></code></pre>
+</div>
+</div>\`,
             metadata: {
   \\"attribute-undefined\\": \\"drop-line\\",
   \\"attribute-missing\\": \\"skip\\",
