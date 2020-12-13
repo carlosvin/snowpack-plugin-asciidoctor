@@ -6,8 +6,9 @@ yarn add snowpack-plugin-ascciidoctor --dev
 
 Update your snowpack config:
 
+./snowpack.config.json
+
 ```json
-// snowpack.config.json
 {
   "plugins": [
     ...
@@ -17,19 +18,30 @@ Update your snowpack config:
 }
 ```
 
-```js
-// your-file.js
+./test.adoc
 
+```adoc
+
+= My Asciidoctor File
+
+:myVar: 'a value for my variable'
+```
+
+./your-file.js
+
+```js
 import { doc } from './test.adoc'
 
 console.log('Doc', doc)
 
-// Prints
+// Prints (output)
 {
   filePath: '/home/your/test.adoc'
-  html: 'escaped html'
+  html: '<h1>My Asciidoctor File</h1>'
   metadata: {
-    //  asciidoctor document attributes
+    //  asciidoctor document attributes https://asciidoctor.org/docs/user-manual/#attribute-catalog
+    // it contains also any attribute you declared in the asciidoctor file, e.g:
+    myVar: 'a value for my variable'
   }
 }
 ```
