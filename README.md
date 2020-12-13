@@ -6,9 +6,8 @@ yarn add snowpack-plugin-ascciidoctor --dev
 
 Update your snowpack config:
 
-./snowpack.config.json
-
 ```js
+// ./snowpack.config.json
 {
   "plugins": [
     ["snowpack-plugin-ascciidoctor", { /* see "Plugin Options" below */ }],
@@ -16,18 +15,17 @@ Update your snowpack config:
 }
 ```
 
-./test.adoc
-
 ```adoc
+// ./test.adoc
 
 = My Asciidoctor File
 
 :myVar: 'a value for my variable'
 ```
 
-./your-file.js
-
 ```js
+// ./your-file.js
+
 import { doc } from './test.adoc'
 
 console.log('Doc', doc)
