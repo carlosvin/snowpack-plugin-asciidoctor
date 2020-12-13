@@ -8,12 +8,10 @@ Update your snowpack config:
 
 ./snowpack.config.json
 
-```json
+```js
 {
   "plugins": [
-    ...
     ["snowpack-plugin-ascciidoctor", { /* see "Plugin Options" below */ }],
-    ...
   ]
 }
 ```
