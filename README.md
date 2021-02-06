@@ -1,7 +1,7 @@
 ## Quick start
 
 ```bash
-yarn add snowpack-plugin-ascciidoctor --dev
+yarn add snowpack-plugin-asciidoctor --dev
 ```
 
 Update your snowpack config:
@@ -10,7 +10,7 @@ Update your snowpack config:
 // ./snowpack.config.json
 {
   "plugins": [
-    ["snowpack-plugin-ascciidoctor", { /* see "Plugin Options" below */ }],
+    ["snowpack-plugin-asciidoctor", { /* see "Plugin Options" below */ }],
   ]
 }
 ```
